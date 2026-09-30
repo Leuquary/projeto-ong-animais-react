@@ -1,0 +1,107 @@
+.hero .hero_title {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero .hero_title h2 {
+    font-size: var(--tamanho-titulo-grande);
+    font-family: var(--fonte-titulo);
+    line-height: 1.2;
+    color: var(--roxo);
+}
+
+.hero .hero_title p {
+    font-size: var(--tamanho-texto-grande);
+    color: var(--texto);
+    line-height: 1.5;
+}
+
+.hero .hero_content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 20px;
+    margin: 0 100px;
+    padding: 20px;
+}
+
+.hero .hero_image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .hero_buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero .hero_buttons a {
+    display: inline-block;
+    padding: 15px 20px;
+    background: transparent;
+    border: none;
+    font-family: var(--fonte-texto);
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero .hero_buttons a.ajuda {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.hero .hero_buttons a.ajuda:hover {
+    background-color: var(--vermelho-escuro);
+    transition: all 300ms;
+}
+
+.hero .hero_buttons a.projetos {
+    border: 1px solid var(--roxo);
+    color: var(--roxo);
+}
+
+.hero .hero_buttons a.projetos:hover {
+    background-color: var(--roxo);
+    color: var(--branco);
+    transition: all 300ms;
+}
+
+@media (min-width: 1441px) and (max-width: 2650px) {
+    .hero .hero_content {
+        margin: 0 20%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .hero_title {
+        justify-content: space-around;
+        gap: 0;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 770px) {
+    .hero .hero_content {
+        grid-template-columns: 1fr;
+        margin: 0 70px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .hero .hero_content {
+        margin: 0 0;
+        grid-template-columns: 1fr;
+    }
+
+    .hero .hero_title h2 {
+        font-size: var(--tamanho-titulo);
+    }
+
+    .hero .hero_title p {
+        font-size: var(--tamanho-texto);
+        color: var(--texto);
+        line-height: 1.5;
+    }
+}

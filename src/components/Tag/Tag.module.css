@@ -1,0 +1,30 @@
+.projetos_item__tag {
+    justify-self: start;
+    display: inline-flex;
+    white-space: nowrap;
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto-pequeno);
+    padding: 8px 10px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.tag_resgate {
+    background-color: var(--vermelho-suave);
+    color: var(--vermelho);
+}
+
+.tag_saude {
+    background-color: var(--azul-suave);
+    color: var(--azul);
+}
+
+.tag_adocao {
+    background-color: var(--marrom-suave);
+    color: var(--marrom);
+}
+
+.tag_educacao {
+    background-color: var(--roxo-suave);
+    color: var(--roxo);
+}

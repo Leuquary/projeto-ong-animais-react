@@ -1,0 +1,49 @@
+.cadastro_content__item {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 20px 0;
+    border-top: 1px solid var(--borda);
+}
+
+.cadastro_content__item:last-child {
+    border-bottom: 1px solid var(--borda);
+}
+
+.cadastro_content__item h4 {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-titulo-menu);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.adocao {
+    background-color: var(--marrom-suave);
+    color: var(--marrom);
+}
+
+.voluntariado {
+    background-color: var(--azul-suave);
+    color: var(--azul);
+}
+
+.doacao {
+    background-color: var(--vermelho-suave);
+    color: var(--vermelho);
+}
+
+.cadastro_content__item p {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--texto);
+    line-height: 1.8;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .cadastro_content__item {
+        display: flex;
+        flex-direction: column;
+    }
+}

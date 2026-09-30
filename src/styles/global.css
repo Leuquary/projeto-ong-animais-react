@@ -1,0 +1,37 @@
+:root {
+    --vermelho: #D73220;
+    --creme: #F9ECE5;
+    --marrom: #68150A;
+    --azul: #0B78B3;
+    --roxo: #1F0062;
+    --branco: #ffffff;
+    --texto: #6b5A54;
+    --vermelho-escuro: #962216;
+    --vermelho-hover: #68170e;
+    --borda: rgba(105, 22, 11, 0.162);
+    --vermelho-suave: #D7322026;
+    --azul-suave: #0b78b340;
+    --marrom-suave: #68150A26;
+    --roxo-suave: #1F006226;
+
+    --fonte-titulo: 'Fraunces', Georgia, serif;
+    --fonte-texto: 'Work Sans', sans-serif;
+
+    --tamanho-titulo-grande: 50px;
+    --tamanho-titulo: 34px;
+    --tamanho-subtitulo: 24px;
+    --tamanho-texto-grande: 18px;
+    --tamanho-texto: 16px;
+    --tamanho-texto-pequeno: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--creme);
+    font-family: var(--fonte-texto);
+}

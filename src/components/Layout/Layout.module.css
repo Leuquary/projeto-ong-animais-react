@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 1441px) and (max-width: 2650px) {
+    .main_cheio {
+        height: 100vh;
+        justify-content: space-between;
+        gap: 0;
+    }
+}

@@ -1,0 +1,25 @@
+.ong_info__card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ong_info__card span:nth-child(1) {
+    font-size: var(--tamanho-titulo-grande);
+    font-weight: 700;
+    color: var(--branco);
+    font-family: var(--fonte-titulo);
+}
+
+.ong_info__card span:nth-child(2) {
+    font-size: var(--tamanho-texto-pequeno);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--fonte-texto);
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .ong_info__card {
+        align-items: center;
+    }
+}
