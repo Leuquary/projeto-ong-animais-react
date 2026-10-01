@@ -167,7 +167,7 @@ export default function FormularioCadastro() {
         Enviar cadastro
       </button>
       <p className={styles.formulario__sucesso} hidden={!enviado}>
-        Falha ao salvar dados. Por favor, tente novamente
+        Cadastro realizado com sucesso. Entramos em contato em até 3 dias úteis.
       </p>
       <p className={styles.formulario__erro} hidden={!falhaAoSalvar}>
         Não foi possível guardar o cadastro neste navegador. Tente novamente.
