@@ -12,7 +12,6 @@ export default function App() {
         <Route path="/" element={<Inicio />} />
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/cadastro" element={<Cadastro />} />
-        <Route path="/projeto-ong-animais-react/" element={<Inicio />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>
     </Routes>
