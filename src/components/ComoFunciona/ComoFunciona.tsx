@@ -1,9 +1,12 @@
 import Etapa from '../Etapa/Etapa'
 import styles from './ComoFunciona.module.css'
+import resgate from '/assets/resgate.jpg'
+import cuidado from '/assets/cuidado.jpg'
+import adocao from '/assets/adocao.jpg'
 
 const etapas = [
   {
-    imagem: '/assets/resgate.jpg',
+    imagem: resgate,
     alt: 'Resgatando Animais',
     numero: '1',
     titulo: 'Resgate',
@@ -11,7 +14,7 @@ const etapas = [
       'Recebemos as denúncias, avaliamos a veracidade da informação e vamos até o animal, muitas vezes em situação de rua, maus-tratos ou abandono.',
   },
   {
-    imagem: '/assets/cuidado.jpg',
+    imagem: cuidado,
     alt: 'Cuidando de Animais',
     numero: '2',
     titulo: 'Cuidado',
@@ -19,7 +22,7 @@ const etapas = [
       'Realizamos exames, vacinação, castração e tratamento veterinário completo antes de disponibilizar qualquer animal para adoção.',
   },
   {
-    imagem: '/assets/adocao.jpg',
+    imagem: adocao,
     alt: 'Adotando Animais',
     numero: '3',
     titulo: 'Adoção',

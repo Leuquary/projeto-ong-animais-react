@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import styles from './Header.module.css'
+import logo from '/assets/logo.png'
 
 const links = [
   { to: '/', label: 'Início' },
@@ -22,7 +23,7 @@ export default function Header() {
       <div className={styles.header_content}>
         <div className={styles.header_content__logo}>
           <h1>
-            <img src="/assets/logo.png" alt="Logo Menu" />
+            <img src={logo} alt="Logo Menu" />
             <span>Instituto Patas da Rua</span>
           </h1>
         </div>

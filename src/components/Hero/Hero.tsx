@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './Hero.module.css'
+import logoGrande from '/assets/logo-grande.png'
 
 export default function Hero() {
   return (
@@ -28,7 +29,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.hero_image}>
-          <img src="/assets/logo-grande.png" alt="Logo Patas da Rua" />
+          <img src={logoGrande} alt="Logo Patas da Rua" />
         </div>
       </div>
     </section>
