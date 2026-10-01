@@ -6,7 +6,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/projeto-ong-animais-react/">
+    <BrowserRouter basename="/projeto-ong-animais-react">
       <App />
     </BrowserRouter>
   </StrictMode>,
